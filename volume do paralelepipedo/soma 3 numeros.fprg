@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev_1o_Ano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-13 02:00:48 "/>
+        <attribute name="created" value="RGV2XzFvX0FubztETlMxMTgxMjYwODQ1OzIwMjYtMDQtMTM7IjExOjE5OjA1ICI7Mjg1OA=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwODQ1OzIwMjYtMDQtMTM7IjAyOjAwOjQ4ICI7MjsyOTY0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="volume, base, largura, altura" type="Real" array="False" size=""/>
+            <output expression="&quot;informe a base do paralelepipedo&quot;" newline="True"/>
+            <input variable="base"/>
+            <output expression="&quot;informe a altura do paralelepipedo&quot;" newline="True"/>
+            <input variable="altura"/>
+            <output expression="&quot;informe a largura do paralelepipedo&quot;" newline="True"/>
+            <input variable="largura"/>
+            <assign variable="volume" expression="base*altura*largura"/>
+            <output expression="&quot;o valor do volume &#233;&quot;&amp;volume&amp;&quot;cm&#179;&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
