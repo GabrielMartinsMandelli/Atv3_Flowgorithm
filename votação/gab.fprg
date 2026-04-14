@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev_1o_Ano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-14 10:17:13 "/>
+        <attribute name="created" value="RGV2XzFvX0FubztETlMxMTgxMjYwODQ1OzIwMjYtMDQtMTQ7IjA5OjUxOjQ3ICI7Mjg2OA=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwODQ1OzIwMjYtMDQtMTQ7IjEwOjE3OjEzICI7MTsyOTYz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="idade" type="Integer" array="False" size=""/>
+            <output expression="&quot;sua idade:&quot;" newline="True"/>
+            <input variable="idade"/>
+            <if expression="idade&lt;16">
+                <then>
+                    <output expression="&quot;n&#227;o pode votar&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="idade=17">
+                        <then>
+                            <output expression="&quot;voto pcional&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="idade=16">
+                                <then>
+                                    <output expression="&quot;voto opcional&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="idade&gt;70">
+                                        <then>
+                                            <output expression="&quot;voto opcional&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="idade&gt;=18">
+                                                <then>
+                                                    <output expression="&quot;voto obrigatorio&quot;" newline="True"/>
+                                                </then>
+                                                <else/>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
